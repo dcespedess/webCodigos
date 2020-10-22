@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=ISO-UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -62,7 +62,7 @@
 				</div>
 				<div class="col-4 text-center">
 					<a class="blog-header-logo text-dark" href="/"><h1>Web
-							CÛdigos</h1></a>
+							C√≥digos</h1></a>
 				</div>
 				<div class="col-4 d-flex justify-content-end align-items-center">
 					<div class="col-4 pt-1">
@@ -76,8 +76,8 @@
 			<nav class="nav d-flex justify-content-between">
 				<a class="p-2 text-muted" href="#">Java</a> <a
 					class="p-2 text-muted" href="#">SQL</a> <a class="p-2 text-muted"
-					href="#">DiseÒo Web</a> <a class="p-2 text-muted" href="#">Web
-					Din·micas</a> <a class="p-2 text-muted" href="#">Spring Boot</a>
+					href="#">Dise√±o Web</a> <a class="p-2 text-muted" href="#">Web
+					Din√°micas</a> <a class="p-2 text-muted" href="#">Spring Boot</a>
 				<!-- <a	class="p-2 text-muted" href="#">Business</a> <a
 					class="p-2 text-muted" href="#">Politics</a> <a
 					class="p-2 text-muted" href="#">Opinion</a> <a
@@ -92,7 +92,7 @@
 			<div class="col-md-6 px-0">
 				<h1 class="display-4 font-italic">Web de ejercicios Full Stack
 					Spring Boot</h1>
-				<p class="lead my-3">Este sitio web fue diseÒado para subir los
+				<p class="lead my-3">Este sitio web fue dise√±ado para subir los
 					codigos y trabajos realizados en clases durante el curso de
 					Desarrollador Full Stack Java</p>
 
@@ -150,27 +150,27 @@
 						<h2 class="blog-post-title">El motivo de este Blog</h2>
 						<p class="blog-post-meta">Octubre 19, 2020</p>
 
-						<p>Este blog fue creado con la motivaciÛn de publicar los
+						<p>Este blog fue creado con la motivaci√≥n de publicar los
 							trabajos que fui realizando a lo largo del curso de desarrollador
-							Full Stack. TambiÈn demostrar la experiencia que adquirÌ con este
+							Full Stack. Tambi√©n demostrar la experiencia que adquir√≠ con este
 							curso.</p>
 						<hr>
 						<p>Este curso lo realice por medio del Sence, ya que se abrio
-							una postulaciÛn y no perdÌ la oportunidad de intentarlo.</p>
+							una postulaci√≥n y no perd√≠ la oportunidad de intentarlo.</p>
 						<blockquote>
 							<p>El curso lo comence en Enero de 2020, en el DUOC UC
 								ubicado en Miguel Claro 337, Providencia. Nuestro Profesor fue
 								Orlan Parra, Ingeniero en Informativa y docente del Duoc.
-								Excelente profesor y sin el, no habrÌa llegado hasta este punto.
+								Excelente profesor y sin el, no habr√≠a llegado hasta este punto.
 							</p>
 						</blockquote>
 
 						<h2>Contenido</h2>
-						<p>Dentro de este sitio web, encontraremos los cÛdigos y
+						<p>Dentro de este sitio web, encontraremos los c√≥digos y
 							actividades que realice a los largo del curso.</p>
 
 						<h3>Ejemplos</h3>
-						<p>Ac· podemos ver el cÛdigo para crear una clase en Java:</p>
+						<p>Ac√° podemos ver el c√≥digo para crear una clase en Java:</p>
 						<pre>
 						<code>Clase Usuario: 
 public class Usuario {
@@ -227,7 +227,7 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 }
 }</code>
 					</pre>
-						<p>Este cÛdigo es para crear el objeto Usuario, donde tiene un
+						<p>Este c√≥digo es para crear el objeto Usuario, donde tiene un
 							Run, Nombre, Apellido y Edad. Tiene un Constructor sin parametros
 							y uno con todos sus paramentros. Incluye sus Getter y Setter y el metodo ToString, para mostrar todos los datos.</p>
 						<!-- <h3>Sub-heading</h3>
@@ -257,14 +257,21 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 					<!-- /.blog-post -->
 
 					<div class="blog-post">
-						<h2 class="blog-post-title">M·s contenido</h2>
+						<h2 class="blog-post-title">M√°s contenido</h2>
 						<p class="blog-post-meta">
 						Octubre 19, 2020 						</p>
 
 						<p>
-							En la opciÛn <a href="java">Java</a> encontraremos los ejercicios de Java
+							En la opci√≥n <a href="java">Java</a> encontraremos los ejercicios de Java.
 						</p>
-						<blockquote>
+						<p> En la opci√≥n <a href="sql">Sql</a> encontraremos los ejercicios de SQL.
+						</p>
+						<p> En la opci√≥n <a href="disenioWeb">Dise√±o Web</a> encontraremos ejercicios de Dise√±o Web en HTML 5, Css y Javascript</p>
+						<p> En la opci√≥n <a href="webDinamicas">Web Din√°micas</a> encontraremos ejercicios de p√°ginase Web Din√°micas con conexi√≥n a bases de datos </p>
+						<p> En la opci√≥n <a href="springBoot">Spring Boot</a> encontraremos ejercicios de Dise√±o Web con Spring Boot, Spring Boot Security y bases de datos </p>
+						<br>
+					
+						<!-- <blockquote>
 							<p>
 								Curabitur blandit tempus porttitor. <strong>Nullam quis
 									risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id
@@ -288,7 +295,6 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 						<p class="blog-post-meta">
 							December 14, 2013 by <a href="#">Chris</a>
 						</p>
-
 						<p>Cum sociis natoque penatibus et magnis dis parturient
 							montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed
 							consectetur. Etiam porta sem malesuada magna mollis euismod.
@@ -322,9 +328,9 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 					<div class="p-3 mb-3 bg-light rounded">
 						<h4 class="font-italic">Acerca de mi</h4>
 						<p class="mb-0">
-							Daniel CÈspedes <em>(Desarrollador Full Stack Java)</em>. Tengo
-							27 aÒos, vivo en la comuna de San Bernardo en la RegiÛn
-							Metropolitana de Chile. Soy padre de dos hermosos niÒos. Amante
+							Daniel C√©spedes <em>(Desarrollador Full Stack Java)</em>. Tengo
+							27 a√±os, vivo en la comuna de San Bernardo en la Regi√≥n
+							Metropolitana de Chile. Soy padre de dos hermosos ni√±os. Amante
 							de la tecnologia y los videojuegos.
 						</p>
 					</div>
@@ -350,7 +356,7 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 					<div class="p-3">
 						<h4 class="font-italic">Redes Sociales</h4>
 						<ol class="list-unstyled">
-							<li><a href="#"><img
+							<li><a href="https://github.com/dcespedess/webCodigos"><img
 									src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"
 									width="25px" height="25px">GitHub</a></li>
 							<li><a href="https://www.linkedin.com/in/d-cespedes-f/"><img
@@ -373,7 +379,7 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 		<footer class="blog-footer">
 			<p>
 				Blog creado por <a href="https://www.linkedin.com/in/d-cespedes-f/">Daniel
-					CÈspedes</a>.
+					C√©spedes</a>.
 			</p>
 			<p>
 				<a href="/">Volver al principio</a>
@@ -405,6 +411,7 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 		<style type="text/css"></style></defs>
 		<text x="0" y="13"
 				style="font-weight:bold;font-size:13pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg>
+				</div>
 </body>
 
 </body>
