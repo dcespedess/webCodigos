@@ -1,0 +1,9 @@
+@charset "ISO-8859-1";
+.cuadro{
+	text-shadow: 2px 3px black;
+}
+
+.rrss {
+	text-transform: capitalize;
+	text-shadow: 1px 1px aqua;
+}

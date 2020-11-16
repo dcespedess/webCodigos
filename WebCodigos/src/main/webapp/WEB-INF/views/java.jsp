@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="icon" href="../../../../favicon.ico">
-
+<link rel="stylesheet" href="css/estilo.css">
 <title>Blog para Portafolio Full Stack</title>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -43,54 +43,32 @@
 	integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
 	crossorigin="anonymous"></script>
 <!-- Bootstrap core CSS -->
-<link href="../../css/editor.css" rel="stylesheet">
+
 
 <!-- Custom styles for this template -->
 <link
 	href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900"
 	rel="stylesheet">
-<link href="blog.css" rel="stylesheet">
+
 </head>
 
 <body>
 	<div class="container">
-		<header class="blog-header py-3">
-			<div
-				class="row flex-nowrap justify-content-between align-items-center">
-				<div class="col-4 pt-1">
-					<a class="text-muted" href="#"></a>
-				</div>
-				<div class="col-4 text-center">
-					<a class="blog-header-logo text-dark" href="/"><h1>Web
-							Códigos</h1></a>
-				</div>
-				<div class="col-4 d-flex justify-content-end align-items-center">
-					<div class="col-4 pt-1">
-						<a class="text-muted" href="#"></a>
-					</div>
-				</div>
-			</div>
-		</header>
+		<!-- <header class="blog-header py-3"></header> -->
 
 		<div class="nav-scroller py-1 mb-2">
 			<nav class="nav d-flex justify-content-between">
-				<a class="p-2 text-muted" href="#">Java</a> <a
-					class="p-2 text-muted" href="#">SQL</a> <a class="p-2 text-muted"
-					href="#">Diseño Web</a> <a class="p-2 text-muted" href="#">Web
-					Dinámicas</a> <a class="p-2 text-muted" href="#">Spring Boot</a>
-				<!-- <a	class="p-2 text-muted" href="#">Business</a> <a
-					class="p-2 text-muted" href="#">Politics</a> <a
-					class="p-2 text-muted" href="#">Opinion</a> <a
-					class="p-2 text-muted" href="#">Science</a> <a
-					class="p-2 text-muted" href="#">Health</a> <a
-					class="p-2 text-muted" href="#">Style</a> <a 
-					class="p-2 text-muted" href="#">Travel</a> -->
+			<a class="p-2 text-muted" href="/">Inicio</a>
+				<a class="p-2 text-muted" href="java">Java</a> <a
+					class="p-2 text-muted" href="sql">SQL</a> <a class="p-2 text-muted"
+					href="disenioWeb">Diseño Web</a> <a class="p-2 text-muted" href="webDinamicas">Web
+					Dinámicas</a> <a class="p-2 text-muted" href="springBoot">Spring Boot</a>
 			</nav>
 		</div>
 
 		<div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
 			<div class="col-md-6 px-0">
-				<h1 class="display-4 font-italic">Web de ejercicios Full Stack
+				<h1 class="display-4 font-italic cuadro">Web de ejercicios Full Stack
 					Spring Boot</h1>
 				<p class="lead my-3">Este sitio web fue diseñado para subir los
 					codigos y trabajos realizados en clases durante el curso de
@@ -105,7 +83,7 @@
 					<div class="card-body d-flex flex-column align-items-start">
 						<strong class="d-inline-block mb-2 text-primary">Java</strong>
 						<h3 class="mb-0">
-							<a class="text-dark" href="#">Sistema de ventas</a>
+							<a class="text-dark" href="https://github.com/dcespedess/webCodigos/releases/tag/archivos">Sistema de ventas</a>
 						</h3>
 						<div class="mb-1 text-muted">Feb 04</div>
 						<p class="card-text mb-auto">Sistema de ingreso y ventas de planes creado en NetBeans</p>
@@ -118,37 +96,17 @@
 						data-holder-rendered="true">
 				</div>
 			</div>
-			<div class="col-md-6">
-				<div class="card flex-md-row mb-4 box-shadow h-md-250">
-					<div class="card-body d-flex flex-column align-items-start">
-						<strong class="d-inline-block mb-2 text-success">Java</strong>
-						<h3 class="mb-0">
-							<a class="text-dark" href="#">Post title</a>
-						</h3>
-						<div class="mb-1 text-muted">Nov 11</div>
-						<p class="card-text mb-auto">This is a wider card with
-							supporting text below as a natural lead-in to additional content.</p>
-						<a href="#">Continue reading</a>
-					</div>
-					<img class="card-img-right flex-auto d-none d-lg-block"
-						data-src="" alt="Thumbnail [200x250]"
-						src="https://static.wixstatic.com/media/76cc3d_b3c818b0903548e6b6338052ba157f6c~mv2.png/v1/fill/w_200,h_200,al_c,q_85/NetBeans.webp"
-						data-holder-rendered="true" style="width: 200px; height: 250px;">
-				</div>
-			</div>
-		</div>
-		<div class="row mb-2">
+			
 			<div class="col-md-6">
 				<div class="card flex-md-row mb-4 box-shadow h-md-250">
 					<div class="card-body d-flex flex-column align-items-start">
 						<strong class="d-inline-block mb-2 text-primary">Java</strong>
 						<h3 class="mb-0">
-							<a class="text-dark" href="#">Featured post</a>
+							<a class="text-dark" href="https://github.com/dcespedess/webCodigos/releases/tag/archivos">Herencia</a>
 						</h3>
-						<div class="mb-1 text-muted">Nov 12</div>
-						<p class="card-text mb-auto">This is a wider card with
-							supporting text below as a natural lead-in to additional content.</p>
-						<a href="#">Continue reading</a>
+						<div class="mb-1 text-muted">Mar 05</div>
+						<p class="card-text mb-auto">Ejercicio de Herencia</p>
+						<a href="#">Descargar</a>
 					</div>
 					<img class="card-img-right flex-auto d-none d-lg-block"
 						data-src="" alt="Thumbnail [200x250]"
@@ -157,12 +115,32 @@
 						data-holder-rendered="true">
 				</div>
 			</div>
+			
+		</div>
+		<div class="row mb-2">
 			<div class="col-md-6">
 				<div class="card flex-md-row mb-4 box-shadow h-md-250">
 					<div class="card-body d-flex flex-column align-items-start">
 						<strong class="d-inline-block mb-2 text-success">Java</strong>
 						<h3 class="mb-0">
-							<a class="text-dark" href="#">Post title</a>
+							<a class="text-dark" href="https://github.com/dcespedess/webCodigos/releases/tag/archivos">Registro de notas</a>
+						</h3>
+						<div class="mb-1 text-muted">Mar 10</div>
+						<p class="card-text mb-auto">Sistema de ingreso de notas para Alumnos</p>
+						<a href="https://github.com/dcespedess/webCodigos/releases/download/archivos/Ejercicio.registro.de.notas.Alumnos.rar">Descargar</a>
+					</div>
+					<img class="card-img-right flex-auto d-none d-lg-block"
+						data-src="" alt="Thumbnail [200x250]"
+						src="https://static.wixstatic.com/media/76cc3d_b3c818b0903548e6b6338052ba157f6c~mv2.png/v1/fill/w_200,h_200,al_c,q_85/NetBeans.webp"
+						data-holder-rendered="true" style="width: 200px; height: 250px;">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card flex-md-row mb-4 box-shadow h-md-250">
+					<div class="card-body d-flex flex-column align-items-start">
+						<strong class="d-inline-block mb-2 text-success">Java</strong>
+						<h3 class="mb-0">
+							<a class="text-dark" href="https://github.com/dcespedess/webCodigos/releases/tag/archivos">Ejercicio 4</a>
 						</h3>
 						<div class="mb-1 text-muted">Nov 11</div>
 						<p class="card-text mb-auto">This is a wider card with
@@ -201,7 +179,6 @@
 								Excelente profesor y sin el, no habría llegado hasta este punto.
 							</p>
 						</blockquote>
-<!-- 
 						<h2>Contenido</h2>
 						<p>Dentro de este sitio web, encontraremos los códigos y
 							actividades que realice a los largo del curso.</p>
@@ -264,35 +241,12 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 }
 }</code>
 					</pre>
-						<p>Este código es para crear el objeto Usuario, donde tiene un
+						<p>Este código es para crear la clase Usuario, donde tiene un
 							Run, Nombre, Apellido y Edad. Tiene un Constructor sin parametros
-							y uno con todos sus paramentros. Incluye sus Getter y Setter y el metodo ToString, para mostrar todos los datos.</p> -->
-						<!-- <h3>Sub-heading</h3>
-						<p>Cum sociis natoque penatibus et magnis dis parturient
-							montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed
-							consectetur. Etiam porta sem malesuada magna mollis euismod.
-							Fusce dapibus, tellus ac cursus commodo, tortor mauris
-							condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-						<ul>
-							<li>Praesent commodo cursus magna, vel scelerisque nisl
-								consectetur et.</li>
-							<li>Donec id elit non mi porta gravida at eget metus.</li>
-							<li>Nulla vitae elit libero, a pharetra augue.</li>
-						</ul>
-						<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla
-							vitae elit libero, a pharetra augue.</p>
-						<ol>
-							<li>Vestibulum id ligula porta felis euismod semper.</li>
-							<li>Cum sociis natoque penatibus et magnis dis parturient
-								montes, nascetur ridiculus mus.</li>
-							<li>Maecenas sed diam eget risus varius blandit sit amet non
-								magna.</li>
-						</ol>
-						<p>Cras mattis consectetur purus sit amet fermentum. Sed
-							posuere consectetur est at lobortis.</p> -->
+							y uno con todos sus paramentros. Incluye sus Getter y Setter y el
+							metodo ToString, para mostrar todos los datos.</p>
 					</div>
-					<!-- /.blog-post -->
-
+					
 					<div class="blog-post">
 						<h2 class="blog-post-title">Más contenido</h2>
 						<p class="blog-post-meta">
@@ -307,60 +261,8 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 						<p> En la opción <a href="webDinamicas">Web Dinámicas</a> encontraremos ejercicios de páginase Web Dinámicas con conexión a bases de datos </p>
 						<p> En la opción <a href="springBoot">Spring Boot</a> encontraremos ejercicios de Diseño Web con Spring Boot, Spring Boot Security y bases de datos </p>
 						<br>
-					
-						<!-- <blockquote>
-							<p>
-								Curabitur blandit tempus porttitor. <strong>Nullam quis
-									risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id
-								nibh ultricies vehicula ut id elit.
-							</p>
-						</blockquote>
-						<p>
-							Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras
-							mattis consectetur purus sit amet fermentum. Aenean lacinia
-							bibendum nulla sed consectetur.
-						</p>
-						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus
-							dolor auctor. Duis mollis, est non commodo luctus, nisi erat
-							porttitor ligula, eget lacinia odio sem nec elit. Morbi leo
-							risus, porta ac consectetur ac, vestibulum at eros.</p> -->
 					</div>
-					<!-- /.blog-post -->
-
-					<!-- <div class="blog-post">
-						<h2 class="blog-post-title">New feature</h2>
-						<p class="blog-post-meta">
-							December 14, 2013 by <a href="#">Chris</a>
-						</p>
-						<p>Cum sociis natoque penatibus et magnis dis parturient
-							montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed
-							consectetur. Etiam porta sem malesuada magna mollis euismod.
-							Fusce dapibus, tellus ac cursus commodo, tortor mauris
-							condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-						<ul>
-							<li>Praesent commodo cursus magna, vel scelerisque nisl
-								consectetur et.</li>
-							<li>Donec id elit non mi porta gravida at eget metus.</li>
-							<li>Nulla vitae elit libero, a pharetra augue.</li>
-						</ul>
-						<p>
-							Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras
-							mattis consectetur purus sit amet fermentum. Aenean lacinia
-							bibendum nulla sed consectetur.
-						</p>
-						<p>Donec ullamcorper nulla non metus auctor fringilla. Nulla
-							vitae elit libero, a pharetra augue.</p>
-					</div> -->
-					<!-- /.blog-post -->
-
-					<!-- <nav class="blog-pagination">
-						<a class="btn btn-outline-primary" href="#">Older</a> <a
-							class="btn btn-outline-secondary disabled" href="#">Newer</a>
-					</nav> -->
-
 				</div>
-				<!-- /.blog-main -->
-
 				<aside class="col-md-4 blog-sidebar">
 					<div class="p-3 mb-3 bg-light rounded">
 						<h4 class="font-italic">Acerca de mi</h4>
@@ -374,26 +276,23 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 					<div class="p-3">
 						<h4 class="font-italic">Redes Sociales</h4>
 						<ol class="list-unstyled">
-							<li><a href="https://github.com/dcespedess/webCodigos"><img
+							<li><a href="https://github.com/dcespedess/webCodigos"
+								class="rrss"><img
 									src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"
-									width="25px" height="25px">GitHub</a></li>
-							<li><a href="https://www.linkedin.com/in/d-cespedes-f/"><img
+									width="30px" height="30px">GitHub</a></li>
+							<li><a href="https://www.linkedin.com/in/d-cespedes-f/"
+								class="rrss"><img
 									src="https://image.flaticon.com/icons/png/512/174/174857.png"
-									width="20px" height="20px">LinkedIn</a></li>
-							<li><a href="https://www.facebook.com/daniel.cespedes.75054"><img
-									src="https://i.pinimg.com/originals/57/98/53/5798533bb3f2a08ee3514f9c6f6e03be.png"
+									width="30px" height="30px">LinkedIn</a></li>
+							<li><a href="https://www.facebook.com/daniel.cespedes.75054"
+								class="rrss"><img
+									src="https://i.pinimg.com/474x/19/86/aa/1986aadd64048f8a060943b32d4fb4ea.jpg"
 									width="30px" height="30px">Facebook</a></li>
 						</ol>
 					</div>
 				</aside>
-				<!-- /.blog-sidebar -->
-
 			</div>
-			<!-- /.row -->
-
 		</main>
-		<!-- /.container -->
-
 		<footer class="blog-footer">
 			<p>
 				Blog creado por <a href="https://www.linkedin.com/in/d-cespedes-f/">Daniel
@@ -403,33 +302,7 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 				<a href="/">Volver al principio</a>
 			</p>
 		</footer>
-
-		<!-- Bootstrap core JavaScript
-    ================================================== -->
-		<!-- Placed at the end of the document so the pages load faster -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-			crossorigin="anonymous"></script>
-		<script src="../../js/vendor/popper.min.js"></script>
-		<script src="../../js/bootstrap.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/holderjs@2.9.4/holder.js"></script>
-		<script>
-			Holder.addTheme('thumb', {
-				bg : '#55595c',
-				fg : '#eceeef',
-				text : 'Thumbnail'
-			});
-		</script>
-
-
-		<svg xmlns="http://www.w3.org/2000/svg" width="200" height="250"
-			viewBox="0 0 200 250" preserveAspectRatio="none"
-			style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
-		<defs>
-		<style type="text/css"></style></defs>
-		<text x="0" y="13"
-				style="font-weight:bold;font-size:13pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg>
-				</div>
+		</div>
 </body>
 
 </body>

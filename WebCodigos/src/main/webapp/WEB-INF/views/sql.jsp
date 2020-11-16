@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -10,7 +10,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="icon" href="../../../../favicon.ico">
-
+<link rel="stylesheet" href="css/estilo.css">
 <title>Blog para Portafolio Full Stack</title>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -43,56 +43,36 @@
 	integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
 	crossorigin="anonymous"></script>
 <!-- Bootstrap core CSS -->
-<link href="../../css/editor.css" rel="stylesheet">
+
 
 <!-- Custom styles for this template -->
 <link
 	href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900"
 	rel="stylesheet">
-<link href="blog.css" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
 	<div class="container">
-		<header class="blog-header py-3">
-			<div
-				class="row flex-nowrap justify-content-between align-items-center">
-				<div class="col-4 pt-1">
-					<a class="text-muted" href="#"></a>
-				</div>
-				<div class="col-4 text-center">
-					<a class="blog-header-logo text-dark" href="/"><h1>Web
-							C√≥digos</h1></a>
-				</div>
-				<div class="col-4 d-flex justify-content-end align-items-center">
-					<div class="col-4 pt-1">
-						<a class="text-muted" href="#"></a>
-					</div>
-				</div>
-			</div>
-		</header>
+		<!--<header class="blog-header py-3"> </header>-->
 
 		<div class="nav-scroller py-1 mb-2">
 			<nav class="nav d-flex justify-content-between">
-				<a class="p-2 text-muted" href="#">Java</a> <a
-					class="p-2 text-muted" href="#">SQL</a> <a class="p-2 text-muted"
-					href="#">Dise√±o Web</a> <a class="p-2 text-muted" href="#">Web
-					Din√°micas</a> <a class="p-2 text-muted" href="#">Spring Boot</a>
-				<!-- <a	class="p-2 text-muted" href="#">Business</a> <a
-					class="p-2 text-muted" href="#">Politics</a> <a
-					class="p-2 text-muted" href="#">Opinion</a> <a
-					class="p-2 text-muted" href="#">Science</a> <a
-					class="p-2 text-muted" href="#">Health</a> <a
-					class="p-2 text-muted" href="#">Style</a> <a 
-					class="p-2 text-muted" href="#">Travel</a> -->
-			</nav>
+			<a class="p-2 text-muted" href="/">Inicio</a>
+				<a class="p-2 text-muted" href="java">Java</a> <a
+					class="p-2 text-muted" href="sql">SQL</a> <a class="p-2 text-muted"
+					href="disenioWeb">DiseÒo Web</a> <a class="p-2 text-muted"
+					href="webDinamicas">Web Din·micas</a> <a class="p-2 text-muted"
+					href="springBoot">Spring Boot</a>
+					
+					</nav>
 		</div>
 
 		<div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
 			<div class="col-md-6 px-0">
-				<h1 class="display-4 font-italic">Web de ejercicios Full Stack
+				<h1 class="display-4 font-italic cuadro">Web de ejercicios Full Stack
 					Spring Boot</h1>
-				<p class="lead my-3">Este sitio web fue dise√±ado para subir los
+				<p class="lead my-3">Este sitio web fue diseÒado para subir los
 					codigos y trabajos realizados en clases durante el curso de
 					Desarrollador Full Stack Java</p>
 
@@ -105,16 +85,17 @@
 					<div class="card-body d-flex flex-column align-items-start">
 						<strong class="d-inline-block mb-2 text-primary">SQL</strong>
 						<h3 class="mb-0">
-							<a class="text-dark" href="#">Sistema de ventas</a>
+							<a class="text-dark" href="https://github.com/dcespedess/webCodigos/releases/tag/archivosSQL">Busqueda de datos</a>
 						</h3>
 						<div class="mb-1 text-muted">Feb 04</div>
-						<p class="card-text mb-auto">Sistema de ingreso y ventas de planes creado en NetBeans</p>
-						<a href="https://github.com/dcespedess/webCodigos/releases/download/archivos/Sistema.de.venta.de.entradas.al.cine.rar">Descargar</a>
+						<p class="card-text mb-auto">Busqueda de datos de las tablas
+							creadas en la Base de Datos</p>
+						<a
+							href="https://github.com/dcespedess/webCodigos/releases/download/archivosSQL/Busqueda.de.datos.en.Base.de.datos.rar"><button class="btn btn-outline-primary">Descargar</button></a>
 					</div>
-					<img class="card-img-right flex-auto d-none d-lg-block"
-						data-src="" alt="Thumbnail [200x250]"
-						style="width: 200px; height: 250px;"
-						src="https://static.wixstatic.com/media/76cc3d_b3c818b0903548e6b6338052ba157f6c~mv2.png/v1/fill/w_200,h_200,al_c,q_85/NetBeans.webp"
+					<img class="card-img-right flex-auto d-none d-lg-block" data-src=""
+						alt="Thumbnail [200x250]" style="width: 200px; height: 250px;"
+						src="https://miro.medium.com/max/1200/1*Oe7xavCj5qCBzwTbLDbPTg.jpeg"
 						data-holder-rendered="true">
 				</div>
 			</div>
@@ -123,16 +104,17 @@
 					<div class="card-body d-flex flex-column align-items-start">
 						<strong class="d-inline-block mb-2 text-success">SQL</strong>
 						<h3 class="mb-0">
-							<a class="text-dark" href="#">Post title</a>
+							<a class="text-dark" href="https://github.com/dcespedess/webCodigos/releases/tag/archivosSQL">Tablas</a>
 						</h3>
 						<div class="mb-1 text-muted">Nov 11</div>
-						<p class="card-text mb-auto">This is a wider card with
-							supporting text below as a natural lead-in to additional content.</p>
-						<a href="#">Continue reading</a>
+						<p class="card-text mb-auto">Crear Tablas, insertar, modificar y eliminar datos de la Base de datos</p>
+						<a
+							href="https://github.com/dcespedess/webCodigos/releases/download/archivosSQL/Crear.inserta.modificar.y.eliminar.tablas.rar">
+							<button class="btn btn-outline-success">Descargar</button></a>
 					</div>
-					<img class="card-img-right flex-auto d-none d-lg-block"
-						data-src="" alt="Thumbnail [200x250]"
-						src="https://static.wixstatic.com/media/76cc3d_b3c818b0903548e6b6338052ba157f6c~mv2.png/v1/fill/w_200,h_200,al_c,q_85/NetBeans.webp"
+					<img class="card-img-right flex-auto d-none d-lg-block" data-src=""
+						alt="Thumbnail [200x250]"
+						src="https://miro.medium.com/max/1200/1*Oe7xavCj5qCBzwTbLDbPTg.jpeg"
 						data-holder-rendered="true" style="width: 200px; height: 250px;">
 				</div>
 			</div>
@@ -143,17 +125,16 @@
 					<div class="card-body d-flex flex-column align-items-start">
 						<strong class="d-inline-block mb-2 text-primary">SQL</strong>
 						<h3 class="mb-0">
-							<a class="text-dark" href="#">Featured post</a>
+							<a class="text-dark" href="#">Joins</a>
 						</h3>
 						<div class="mb-1 text-muted">Nov 12</div>
-						<p class="card-text mb-auto">This is a wider card with
-							supporting text below as a natural lead-in to additional content.</p>
-						<a href="#">Continue reading</a>
+						<p class="card-text mb-auto">Busqueda de datos entre dos o m·s tablas</p>
+						<a href="https://github.com/dcespedess/webCodigos/releases/download/archivosSQL/Busqueda.de.datos.de.dos.tablas.rar">
+						<button class="btn btn-outline-primary">Descargar</button></a>
 					</div>
-					<img class="card-img-right flex-auto d-none d-lg-block"
-						data-src="" alt="Thumbnail [200x250]"
-						style="width: 200px; height: 250px;"
-						src="https://static.wixstatic.com/media/76cc3d_b3c818b0903548e6b6338052ba157f6c~mv2.png/v1/fill/w_200,h_200,al_c,q_85/NetBeans.webp"
+					<img class="card-img-right flex-auto d-none d-lg-block" data-src=""
+						alt="Thumbnail [200x250]" style="width: 200px; height: 250px;"
+						src="https://miro.medium.com/max/1200/1*Oe7xavCj5qCBzwTbLDbPTg.jpeg"
 						data-holder-rendered="true">
 				</div>
 			</div>
@@ -167,16 +148,16 @@
 						<div class="mb-1 text-muted">Nov 11</div>
 						<p class="card-text mb-auto">This is a wider card with
 							supporting text below as a natural lead-in to additional content.</p>
-						<a href="#">Continue reading</a>
+						<a href="#"><button class="btn btn-outline-success">Descargar</button></a>
 					</div>
-					<img class="card-img-right flex-auto d-none d-lg-block"
-						data-src="" alt="Thumbnail [200x250]"
-						src="https://static.wixstatic.com/media/76cc3d_b3c818b0903548e6b6338052ba157f6c~mv2.png/v1/fill/w_200,h_200,al_c,q_85/NetBeans.webp"
+					<img class="card-img-right flex-auto d-none d-lg-block" data-src=""
+						alt="Thumbnail [200x250]"
+						src="https://miro.medium.com/max/1200/1*Oe7xavCj5qCBzwTbLDbPTg.jpeg"
 						data-holder-rendered="true" style="width: 200px; height: 250px;">
 				</div>
 			</div>
 		</div>
-	
+
 
 		<main role="main" class="container">
 			<div class="row">
@@ -187,27 +168,27 @@
 						<h2 class="blog-post-title">El motivo de este Blog</h2>
 						<p class="blog-post-meta">Octubre 19, 2020</p>
 
-						<p>Este blog fue creado con la motivaci√≥n de publicar los
+						<p>Este blog fue creado con la motivaciÛn de publicar los
 							trabajos que fui realizando a lo largo del curso de desarrollador
-							Full Stack. Tambi√©n demostrar la experiencia que adquir√≠ con este
+							Full Stack. TambiÈn demostrar la experiencia que adquirÌ con este
 							curso.</p>
 						<hr>
 						<p>Este curso lo realice por medio del Sence, ya que se abrio
-							una postulaci√≥n y no perd√≠ la oportunidad de intentarlo.</p>
+							una postulaciÛn y no perdÌ la oportunidad de intentarlo.</p>
 						<blockquote>
 							<p>El curso lo comence en Enero de 2020, en el DUOC UC
 								ubicado en Miguel Claro 337, Providencia. Nuestro Profesor fue
 								Orlan Parra, Ingeniero en Informativa y docente del Duoc.
-								Excelente profesor y sin el, no habr√≠a llegado hasta este punto.
+								Excelente profesor y sin el, no habrÌa llegado hasta este punto.
 							</p>
 						</blockquote>
-<!-- 
+						<!-- 
 						<h2>Contenido</h2>
-						<p>Dentro de este sitio web, encontraremos los c√≥digos y
+						<p>Dentro de este sitio web, encontraremos los cÛdigos y
 							actividades que realice a los largo del curso.</p>
 
 						<h3>Ejemplos</h3>
-						<p>Ac√° podemos ver el c√≥digo para crear una clase en Java:</p>
+						<p>Ac· podemos ver el cÛdigo para crear una clase en Java:</p>
 						<pre>
 						<code>Clase Usuario: 
 public class Usuario {
@@ -264,7 +245,7 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 }
 }</code>
 					</pre>
-						<p>Este c√≥digo es para crear el objeto Usuario, donde tiene un
+						<p>Este cÛdigo es para crear el objeto Usuario, donde tiene un
 							Run, Nombre, Apellido y Edad. Tiene un Constructor sin parametros
 							y uno con todos sus paramentros. Incluye sus Getter y Setter y el metodo ToString, para mostrar todos los datos.</p> -->
 						<!-- <h3>Sub-heading</h3>
@@ -294,20 +275,33 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 					<!-- /.blog-post -->
 
 					<div class="blog-post">
-						<h2 class="blog-post-title">M√°s contenido</h2>
-						<p class="blog-post-meta">
-						Octubre 19, 2020 						</p>
+						<h2 class="blog-post-title">M·s contenido</h2>
+						<p class="blog-post-meta">Octubre 19, 2020</p>
 
 						<p>
-							En la opci√≥n <a href="java">Java</a> encontraremos los ejercicios de Java.
+							En la opciÛn <a href="java">Java</a> encontraremos los ejercicios
+							de Java.
 						</p>
-						<p> En la opci√≥n <a href="sql">Sql</a> encontraremos los ejercicios de SQL.
+						<p>
+							En la opciÛn <a href="sql">Sql</a> encontraremos los ejercicios
+							de SQL.
 						</p>
-						<p> En la opci√≥n <a href="disenioWeb">Dise√±o Web</a> encontraremos ejercicios de Dise√±o Web en HTML 5, Css y Javascript</p>
-						<p> En la opci√≥n <a href="webDinamicas">Web Din√°micas</a> encontraremos ejercicios de p√°ginase Web Din√°micas con conexi√≥n a bases de datos </p>
-						<p> En la opci√≥n <a href="springBoot">Spring Boot</a> encontraremos ejercicios de Dise√±o Web con Spring Boot, Spring Boot Security y bases de datos </p>
+						<p>
+							En la opciÛn <a href="disenioWeb">DiseÒo Web</a> encontraremos
+							ejercicios de DiseÒo Web en HTML 5, Css y Javascript
+						</p>
+						<p>
+							En la opciÛn <a href="webDinamicas">Web Din·micas</a>
+							encontraremos ejercicios de p·ginase Web Din·micas con conexiÛn a
+							bases de datos
+						</p>
+						<p>
+							En la opciÛn <a href="springBoot">Spring Boot</a> encontraremos
+							ejercicios de DiseÒo Web con Spring Boot, Spring Boot Security y
+							bases de datos
+						</p>
 						<br>
-					
+
 						<!-- <blockquote>
 							<p>
 								Curabitur blandit tempus porttitor. <strong>Nullam quis
@@ -365,23 +359,26 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 					<div class="p-3 mb-3 bg-light rounded">
 						<h4 class="font-italic">Acerca de mi</h4>
 						<p class="mb-0">
-							Daniel C√©spedes <em>(Desarrollador Full Stack Java)</em>. Tengo
-							27 a√±os, vivo en la comuna de San Bernardo en la Regi√≥n
-							Metropolitana de Chile. Soy padre de dos hermosos ni√±os. Amante
+							Daniel CÈspedes <em>(Desarrollador Full Stack Java)</em>. Tengo
+							27 aÒos, vivo en la comuna de San Bernardo en la RegiÛn
+							Metropolitana de Chile. Soy padre de dos hermosos niÒos. Amante
 							de la tecnologia y los videojuegos.
 						</p>
 					</div>
 					<div class="p-3">
 						<h4 class="font-italic">Redes Sociales</h4>
 						<ol class="list-unstyled">
-							<li><a href="https://github.com/dcespedess/webCodigos"><img
+							<li><a href="https://github.com/dcespedess/webCodigos"
+								class="rrss"><img
 									src="https://cdn3.iconfinder.com/data/icons/inficons/512/github.png"
-									width="25px" height="25px">GitHub</a></li>
-							<li><a href="https://www.linkedin.com/in/d-cespedes-f/"><img
+									width="30px" height="30px">GitHub</a></li>
+							<li><a href="https://www.linkedin.com/in/d-cespedes-f/"
+								class="rrss"><img
 									src="https://image.flaticon.com/icons/png/512/174/174857.png"
-									width="20px" height="20px">LinkedIn</a></li>
-							<li><a href="https://www.facebook.com/daniel.cespedes.75054"><img
-									src="https://i.pinimg.com/originals/57/98/53/5798533bb3f2a08ee3514f9c6f6e03be.png"
+									width="30px" height="30px">LinkedIn</a></li>
+							<li><a href="https://www.facebook.com/daniel.cespedes.75054"
+								class="rrss"><img
+									src="https://i.pinimg.com/474x/19/86/aa/1986aadd64048f8a060943b32d4fb4ea.jpg"
 									width="30px" height="30px">Facebook</a></li>
 						</ol>
 					</div>
@@ -397,7 +394,7 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 		<footer class="blog-footer">
 			<p>
 				Blog creado por <a href="https://www.linkedin.com/in/d-cespedes-f/">Daniel
-					C√©spedes</a>.
+					CÈspedes</a>.
 			</p>
 			<p>
 				<a href="/">Volver al principio</a>
@@ -410,8 +407,7 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 			crossorigin="anonymous"></script>
-		<script src="../../js/vendor/popper.min.js"></script>
-		<script src="../../js/bootstrap.min.js"></script>
+
 		<script src="https://cdn.jsdelivr.net/npm/holderjs@2.9.4/holder.js"></script>
 		<script>
 			Holder.addTheme('thumb', {
@@ -429,7 +425,7 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 		<style type="text/css"></style></defs>
 		<text x="0" y="13"
 				style="font-weight:bold;font-size:13pt;font-family:Arial, Helvetica, Open Sans, sans-serif">Thumbnail</text></svg>
-				</div>
+	</div>
 </body>
 
 </body>
