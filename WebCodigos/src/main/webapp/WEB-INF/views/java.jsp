@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=ISO-UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -9,7 +9,6 @@
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="icon" href="../../../../favicon.ico">
 <link rel="stylesheet" href="css/estilo.css">
 <title>Blog para Portafolio Full Stack</title>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -61,8 +60,8 @@
 			<a class="p-2 text-muted" href="/">Inicio</a>
 				<a class="p-2 text-muted" href="java">Java</a> <a
 					class="p-2 text-muted" href="sql">SQL</a> <a class="p-2 text-muted"
-					href="disenioWeb">Dise√±o Web</a> <a class="p-2 text-muted" href="webDinamicas">Web
-					Din√°micas</a> <a class="p-2 text-muted" href="springBoot">Spring Boot</a>
+					href="disenioWeb">DiseÒo Web</a> <a class="p-2 text-muted" href="webDinamicas">Web
+					Din·micas</a> <a class="p-2 text-muted" href="springBoot">Spring Boot</a>
 			</nav>
 		</div>
 
@@ -70,7 +69,7 @@
 			<div class="col-md-6 px-0">
 				<h1 class="display-4 font-italic cuadro">Web de ejercicios Full Stack
 					Spring Boot</h1>
-				<p class="lead my-3">Este sitio web fue dise√±ado para subir los
+				<p class="lead my-3">Este sitio web fue diseÒado para subir los
 					codigos y trabajos realizados en clases durante el curso de
 					Desarrollador Full Stack Java</p>
 
@@ -165,26 +164,26 @@
 						<h2 class="blog-post-title">El motivo de este Blog</h2>
 						<p class="blog-post-meta">Octubre 19, 2020</p>
 
-						<p>Este blog fue creado con la motivaci√≥n de publicar los
+						<p>Este blog fue creado con la motivaciÛn de publicar los
 							trabajos que fui realizando a lo largo del curso de desarrollador
-							Full Stack. Tambi√©n demostrar la experiencia que adquir√≠ con este
+							Full Stack. TambiÈn demostrar la experiencia que adquirÌ con este
 							curso.</p>
 						<hr>
 						<p>Este curso lo realice por medio del Sence, ya que se abrio
-							una postulaci√≥n y no perd√≠ la oportunidad de intentarlo.</p>
+							una postulaciÛn y no perdÌ la oportunidad de intentarlo.</p>
 						<blockquote>
 							<p>El curso lo comence en Enero de 2020, en el DUOC UC
 								ubicado en Miguel Claro 337, Providencia. Nuestro Profesor fue
 								Orlan Parra, Ingeniero en Informativa y docente del Duoc.
-								Excelente profesor y sin el, no habr√≠a llegado hasta este punto.
+								Excelente profesor y sin el, no habrÌa llegado hasta este punto.
 							</p>
 						</blockquote>
 						<h2>Contenido</h2>
-						<p>Dentro de este sitio web, encontraremos los c√≥digos y
+						<p>Dentro de este sitio web, encontraremos los cÛdigos y
 							actividades que realice a los largo del curso.</p>
 
 						<h3>Ejemplos</h3>
-						<p>Ac√° podemos ver el c√≥digo para crear una clase en Java:</p>
+						<p>Ac· podemos ver el cÛdigo para crear una clase en Java:</p>
 						<pre>
 						<code>Clase Usuario: 
 public class Usuario {
@@ -241,25 +240,25 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 }
 }</code>
 					</pre>
-						<p>Este c√≥digo es para crear la clase Usuario, donde tiene un
+						<p>Este cÛdigo es para crear la clase Usuario, donde tiene un
 							Run, Nombre, Apellido y Edad. Tiene un Constructor sin parametros
 							y uno con todos sus paramentros. Incluye sus Getter y Setter y el
 							metodo ToString, para mostrar todos los datos.</p>
 					</div>
 					
 					<div class="blog-post">
-						<h2 class="blog-post-title">M√°s contenido</h2>
+						<h2 class="blog-post-title">M·s contenido</h2>
 						<p class="blog-post-meta">
 						Octubre 19, 2020 						</p>
 
 						<p>
-							En la opci√≥n <a href="java">Java</a> encontraremos los ejercicios de Java.
+							En la opciÛn <a href="java">Java</a> encontraremos los ejercicios de Java.
 						</p>
-						<p> En la opci√≥n <a href="sql">Sql</a> encontraremos los ejercicios de SQL.
+						<p> En la opciÛn <a href="sql">Sql</a> encontraremos los ejercicios de SQL.
 						</p>
-						<p> En la opci√≥n <a href="disenioWeb">Dise√±o Web</a> encontraremos ejercicios de Dise√±o Web en HTML 5, Css y Javascript</p>
-						<p> En la opci√≥n <a href="webDinamicas">Web Din√°micas</a> encontraremos ejercicios de p√°ginase Web Din√°micas con conexi√≥n a bases de datos </p>
-						<p> En la opci√≥n <a href="springBoot">Spring Boot</a> encontraremos ejercicios de Dise√±o Web con Spring Boot, Spring Boot Security y bases de datos </p>
+						<p> En la opciÛn <a href="disenioWeb">DiseÒo Web</a> encontraremos ejercicios de DiseÒo Web en HTML 5, Css y Javascript</p>
+						<p> En la opciÛn <a href="webDinamicas">Web Din·micas</a> encontraremos ejercicios de p·ginase Web Din·micas con conexiÛn a bases de datos </p>
+						<p> En la opciÛn <a href="springBoot">Spring Boot</a> encontraremos ejercicios de DiseÒo Web con Spring Boot, Spring Boot Security y bases de datos </p>
 						<br>
 					</div>
 				</div>
@@ -267,9 +266,9 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 					<div class="p-3 mb-3 bg-light rounded">
 						<h4 class="font-italic">Acerca de mi</h4>
 						<p class="mb-0">
-							Daniel C√©spedes <em>(Desarrollador Full Stack Java)</em>. Tengo
-							27 a√±os, vivo en la comuna de San Bernardo en la Regi√≥n
-							Metropolitana de Chile. Soy padre de dos hermosos ni√±os. Amante
+							Daniel CÈspedes <em>(Desarrollador Full Stack Java)</em>. Tengo
+							27 aÒos, vivo en la comuna de San Bernardo en la RegiÛn
+							Metropolitana de Chile. Soy padre de dos hermosos niÒos. Amante
 							de la tecnologia y los videojuegos.
 						</p>
 					</div>
@@ -296,7 +295,7 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 		<footer class="blog-footer">
 			<p>
 				Blog creado por <a href="https://www.linkedin.com/in/d-cespedes-f/">Daniel
-					C√©spedes</a>.
+					CÈspedes</a>.
 			</p>
 			<p>
 				<a href="/">Volver al principio</a>
