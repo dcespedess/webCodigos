@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<meta charset="ISO-8859-1">
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
@@ -57,8 +58,8 @@
 				<a class="p-2 text-muted" href="/">Inicio</a> <a
 					class="p-2 text-muted" href="java">Java</a> <a
 					class="p-2 text-muted" href="sql">SQL</a> <a class="p-2 text-muted"
-					href="disenioWeb">Diseño Web</a> <a class="p-2 text-muted"
-					href="webDinamicas">Web Dinámicas</a> <a class="p-2 text-muted"
+					href="disenioWeb">Diseï¿½o Web</a> <a class="p-2 text-muted"
+					href="webDinamicas">Web Dinï¿½micas</a> <a class="p-2 text-muted"
 					href="springBoot">Spring Boot</a>
 
 			</nav>
@@ -69,7 +70,7 @@
 			<div class="col-md-6 px-0">
 				<h1 class="display-4 font-italic cuadro">Web de ejercicios Full
 					Stack Spring Boot</h1>
-				<p class="lead my-3">Este sitio web fue diseñado para subir los
+				<p class="lead my-3">Este sitio web fue diseï¿½ado para subir los
 					codigos y trabajos realizados en clases durante el curso de
 					Desarrollador Full Stack Java</p>
 
@@ -86,28 +87,28 @@
 						<h2 class="blog-post-title">El motivo de este Blog</h2>
 						<p class="blog-post-meta">Octubre 19, 2020</p>
 
-						<p>Este blog fue creado con la motivación de publicar los
+						<p>Este blog fue creado con la motivaciï¿½n de publicar los
 							trabajos que fui realizando a lo largo del curso de desarrollador
-							Full Stack. También demostrar la experiencia que adquirí con este
+							Full Stack. Tambiï¿½n demostrar la experiencia que adquirï¿½ con este
 							curso.</p>
 						<hr>
 						<p>Este curso lo realice por medio del Sence, ya que se abrio
-							una postulación y no perdí la oportunidad de intentarlo.</p>
+							una postulaciï¿½n y no perdï¿½ la oportunidad de intentarlo.</p>
 						<blockquote>
 							<p>El curso lo comence en Enero de 2020, en el DUOC UC
 								ubicado en Miguel Claro 337, Providencia. Nuestro Profesor fue
 								Orlan Parra, Ingeniero en Informativa y docente del Duoc.
-								Excelente profesor y sin el, no habría llegado hasta este punto.
+								Excelente profesor y sin el, no habrï¿½a llegado hasta este punto.
 							</p>
 						</blockquote>
 
 						<h2>Contenido</h2>
 						<p class="blog-post-meta">Noviembre 09, 2020</p>
-						<p>Dentro de este sitio web, encontrarán todos los ejercicios que realice a lo largo del curso en Java (NetBeans),
-						SQL (Bases de datos), Diseño Web (HTML, CSS y Javascript) y Spring boot (MVC, JDBC, Security).</p>
+						<p>Dentro de este sitio web, encontrarï¿½n todos los ejercicios que realice a lo largo del curso en Java (NetBeans),
+						SQL (Bases de datos), Diseï¿½o Web (HTML, CSS y Javascript) y Spring boot (MVC, JDBC, Security).</p>
 <!-- 
 						<h3>Ejemplos</h3>
-						<p>Acá podemos ver el código para crear una clase en Java:</p>
+						<p>Acï¿½ podemos ver el cï¿½digo para crear una clase en Java:</p>
 						<pre>
 						<code>Clase Usuario: 
 public class Usuario {
@@ -164,35 +165,35 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 }
 }</code>
 					</pre>
-						<p>Este código es para crear la clase Usuario, donde tiene un
+						<p>Este cï¿½digo es para crear la clase Usuario, donde tiene un
 							Run, Nombre, Apellido y Edad. Tiene un Constructor sin parametros
 							y uno con todos sus paramentros. Incluye sus Getter y Setter y el
 							metodo ToString, para mostrar todos los datos.</p> -->
 					</div>
 					<div class="blog-post">
-						<h2 class="blog-post-title">Más contenido</h2>
+						<h2 class="blog-post-title">Mï¿½s contenido</h2>
 						<p class="blog-post-meta">Octubre 19, 2020</p>
 
 						<p>
-							En la opción <a href="java">Java</a> encontraremos los ejercicios
+							En la opciï¿½n <a href="java">Java</a> encontraremos los ejercicios
 							de Java.
 						</p>
 						<p>
-							En la opción <a href="sql">Sql</a> encontraremos los ejercicios
+							En la opciï¿½n <a href="sql">Sql</a> encontraremos los ejercicios
 							de SQL.
 						</p>
 						<p>
-							En la opción <a href="disenioWeb">Diseño Web</a> encontraremos
-							ejercicios de Diseño Web en HTML 5, Css y Javascript
+							En la opciï¿½n <a href="disenioWeb">Diseï¿½o Web</a> encontraremos
+							ejercicios de Diseï¿½o Web en HTML 5, Css y Javascript
 						</p>
 						<p>
-							En la opción <a href="webDinamicas">Web Dinámicas</a>
-							encontraremos ejercicios de páginase Web Dinámicas con conexión a
+							En la opciï¿½n <a href="webDinamicas">Web Dinï¿½micas</a>
+							encontraremos ejercicios de pï¿½ginase Web Dinï¿½micas con conexiï¿½n a
 							bases de datos
 						</p>
 						<p>
-							En la opción <a href="springBoot">Spring Boot</a> encontraremos
-							ejercicios de Diseño Web con Spring Boot, Spring Boot Security y
+							En la opciï¿½n <a href="springBoot">Spring Boot</a> encontraremos
+							ejercicios de Diseï¿½o Web con Spring Boot, Spring Boot Security y
 							bases de datos
 						</p>
 						<br>
@@ -204,9 +205,9 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 					<div class="p-3 mb-3 bg-light rounded">
 						<h4 class="font-italic">Acerca de mi</h4>
 						<p class="mb-0">
-							Mi nombre es Daniel Céspedes <em>(Desarrollador Full Stack Java)</em>. Tengo
-							27 años, vivo en la comuna de San Bernardo en la Región
-							Metropolitana de Chile. Soy padre de dos hermosos niños. Amante
+							Mi nombre es Daniel Cï¿½spedes <em>(Desarrollador Full Stack Java)</em>. Tengo
+							27 aï¿½os, vivo en la comuna de San Bernardo en la Regiï¿½n
+							Metropolitana de Chile. Soy padre de dos hermosos niï¿½os. Amante
 							de la tecnologia y los videojuegos. 
 						</p>
 					</div>
@@ -234,7 +235,7 @@ return "Usuario [run=" + run + ", nombre=" + nombre + ", apellido=" + apellido +
 		<footer class="blog-footer">
 			<p>
 				Blog creado por <a href="https://www.linkedin.com/in/d-cespedes-f/">Daniel
-					Céspedes</a>.
+					Cï¿½spedes</a>.
 			</p>
 			<p>
 				<a href="/">Volver al principio</a>
