@@ -13,7 +13,7 @@ public class WebController {
 	
 	@GetMapping("/")
 	public String getIndex() {
-		return "index";
+		return "home";
 	}
 
 	@GetMapping("java")

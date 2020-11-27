@@ -1,9 +1,88 @@
 @charset "ISO-8859-1";
-.cuadro{
-	text-shadow: 2px 3px black;
+
+.header {
+	background-image:
+		url("https://c.wallhere.com/photos/17/b5/programming_code_minimalism-67351.jpg!d");
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	background-size: 100%;
+	
+}
+.header h1{
+	text-shadow: 1px 1px white;
+}
+.header p{
+	text-shadow: 1px 1px white;
+	
 }
 
-.rrss {
-	text-transform: capitalize;
-	text-shadow: 1px 1px aqua;
+.navegador{
+	border: hidden;
+	border-radius: 5px;
+	background-color: #222222;
+}
+
+@media only screen and (max-width:600px) {
+	.header {
+		background-size: 287%;
+		text-align: center;
+	}
+}
+
+.cuadro {
+	background-image:
+		url("https://i.pinimg.com/originals/17/18/54/1718547cbd1e42a536d52ba711f5c200.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 200%;
+	text-shadow: 1px 1px gray;
+	color: silver;
+}
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+}
+
+.title {
+	color: grey;
+	font-size: 18px;
+}
+
+.nombre {
+	color: black;
+}
+
+button {
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 22px;
+	color: white;
+}
+
+button:hover, a:hover {
+	opacity: 1;
+}
+
+.footer4 {
+	background-image:
+		url("http://www.hdfondos.eu/preview/get_photo/770625/1440/1080");
+	color: white;
+	opacity: 0.8;
 }
